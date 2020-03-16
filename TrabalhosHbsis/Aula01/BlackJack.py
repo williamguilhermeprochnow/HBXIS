@@ -66,7 +66,7 @@ class Mesa:
                 print("Voce perdeu o jogo")
                 break
             else:
-                x=input("Pegar mais uma carta? y/n ")
+                x=input("Pegar mais uma carta? (y/n): ")
                 if x == 'y' or x=="Y":
                     continue
                 if x =='n' or x=="N":
